@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall":"ng build --aot --target=production",
-     "start": "node server.js",
+    "start": "node server.js"
   },
   "private": true,
   "dependencies": {
@@ -31,8 +31,7 @@
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
-
-    "@angular/language-service": "^5.2.0",
+   "@angular/language-service": "^5.2.0",
     "@types/jasmine": "~2.8.3",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
@@ -47,7 +46,6 @@
     "protractor": "~5.1.2",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1"
-
   },
  "engines": {
      "node":"v9.4.0",
