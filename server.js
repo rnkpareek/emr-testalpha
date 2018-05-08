@@ -1,4 +1,4 @@
-const express = require('express');
+/*const express = require('express');
 //const bodyParser = require('body-parser');
 const path = require('path');
 const http = require('http');
@@ -29,3 +29,10 @@ app.set('port', port);
 const server = http.createServer(app);
 
 server.listen(port, () => console.log(`Running on localhost:${port}`));
+*/
+
+ const express = require('express');
+ const app = express();
+
+ app.use(express.static(__dirname + '/dist'));
+ app.listen(process.env.PORT || 8080);
